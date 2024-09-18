@@ -10,8 +10,6 @@
 ## iot-sensor-3-10
 >> sensor-3 ซึ่งเป็นเซนเซอร์ที่ใช้ค่าจริงจาก Cucumber RS ของกลุ่มตนเอง แตกต่างจาก "iot-sensor-1" และ "iot-sensor-2" ที่เป็นการจำลอง (mock-up) ส่งผ่าน MQTT โดย payload ถูกตั้งให้อยู่ในรูปแบบเดียวกัน สำหรับการใช้งานร่วมกันกับเซนเซอร์อื่นๆ เซนเซอร์ 4-10 ก็เป็นค่าจริงจากเซนเซอร์ของกลุ่มอื่น ที่อ่านค่าจาก Cucumber RS และส่งผ่าน MQTT ด้วย payload ที่มีรูปแบบเดียวกัน เพื่อแสดงผลพร้อมกัน 10 เซนเซอร์ใน Cucumber.
 
-![mqtt plan](../img/partNetwork/Generic-operation-scheme-of-the-MQTT-protocol.png)
-
 ## หลักการทำงานคร่าวๆ ของ MQTT มีดังนี้
 - MQTT Broker
 - MQTT Clients
