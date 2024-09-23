@@ -41,34 +41,3 @@
 ## How to solve the problems.
 1. docker compose restart kafka
 2. docker compose log -f |egrep 'WARN|ERR' (ใช้สำหรับดู logs จาก Docker Compose ที่มีข้อความที่มีคำว่า "WARN" หรือ "ERR" โดยใช้คำสั่ง egrep เพื่อกรองเฉพาะบรรทัดที่มีข้อความเหล่านี้อยู่เท่านั้น เช่น คำสั่งที่ให้มาจะทำการเรียกดู logs แบบ real-time (-f) และกรองเฉพาะข้อความที่มี "WARN" หรือ "ERR" ด้วย 'egrep'.)
-
-## Output
-
-- [ ✓ ] IoT Sensor - Dashboards - Grafana 
-- [ ✓ ] UI for Apache Ka
-- [ ✓ ] Mongo Expr
-- [ ✓ ] Node Expor
-- [ ✓ ] Prometheus Time Series Collection and Processing Ser
-- [ ✓ ] Prometheus Pushgateway
-- [ ✓ ] ZooNavigator
-
-
-### IoT Sensor - Dashboards - Grafana URL
-
-
-### UI for Apache Kafka
-
-
-### Mongo Express
-
-
-### Node Exporter
-
-
-### Prometheus Time Series Collection and Processing Server
-
-
-### Prometheus Pushgateway
-
-
-### ZooNavigator
